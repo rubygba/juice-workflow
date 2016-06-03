@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "YchWeb",
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",
@@ -31,6 +31,7 @@
     "gulp-clean-css": "^2.0.9",
     "gulp-sass": "^2.3.1",
     "gulp-sourcemaps": "^1.6.0",
-    "node-sass": "^3.7.0"
+    "node-sass": "^3.7.0",
+    "stylus": "^0.54.5"
   }
 }

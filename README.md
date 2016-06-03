@@ -42,3 +42,8 @@
 * css 发布根目录/css
 * js 发布根目录/js
 * 图片 发布根目录/images
+
+## 问题
+
+* node-sass在64位Windows下需要npm rebuild生成正确的二进制文件
+* `npm install` 后请运行 `npm rebuild node-sass` 确保gulp可以正常进行
