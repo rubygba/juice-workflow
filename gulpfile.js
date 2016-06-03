@@ -11,32 +11,33 @@ var sass = require('gulp-sass');
 var stylus = require('gulp-stylus');
 var clean = require('gulp-clean');
 
+var src = "src" //源代码目录
 var paths = {
     html: [
-        "src/*.html",
+        src + "/*.html"
     ],
     html_modules: [
-        "src/html/**/*.html",
+        src + "/html/**/*.html"
     ],
     images: [
-        "src/images/*",
+        src + "/images/*"
     ],
     js: [
-        "src/js/**/*.js",
+        src + "/js/**/*.js"
     ],
     sass: [
-        "src/sass/**/*.scss",
+        src + "/sass/**/*.scss"
     ],
     stylus: [
-        "src/styl/**/*.styl",
+        src + "/styl/**/*.styl"
     ],
     font: [
-        "src/fonts/*.ttf"
+        src + "/fonts/*.ttf"
     ]
 };
 
-var output = ".temp"; // 文件构建输出地址
-var dist = "dist"; // dist目录
+var output = ".temp" // 文件构建输出地址
+var dist = "dist" // dist目录
 
 /**
  *  Task
